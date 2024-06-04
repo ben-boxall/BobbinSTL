@@ -3,3 +3,4 @@ trimesh
 pyvista
 stpyvista
 manifold3d
+xvfbwrapper
