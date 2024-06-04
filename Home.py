@@ -50,7 +50,7 @@ st.title("Bobbin STL Generator")
 internal_diameter = st.number_input("Internal Diameter (ID)", min_value=0.0, step=0.1, value=5.0)
 wall_thickness = st.number_input("Wall Thickness", min_value=0.0, step=0.1, value=5.0)
 height = st.number_input("Height", min_value=0.0, step=0.1, value=10.0)
-flange_diameter = st.number_input("Flange Diameter", min_value=0.0, step=0.1, value=15.0)
+flange_diameter = st.number_input("Flange Diameter", min_value=0.0, step=0.1, value=25.0)
 flange_thickness = st.number_input("Flange Thickness", min_value=0.0, step=0.1, value=1.0)
 
 if st.button("Generate STL"):
