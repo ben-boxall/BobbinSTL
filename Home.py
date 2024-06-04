@@ -4,7 +4,7 @@ import tempfile
 import os
 import pyvista as pv
 from stpyvista import stpyvista
-pyvista.start_xvfb()
+pv.start_xvfb()
 
 def create_cylinder_mesh(internal_diameter, wall_thickness, height, flange_diameter, flange_thickness):
     external_diameter = internal_diameter + 2 * wall_thickness
